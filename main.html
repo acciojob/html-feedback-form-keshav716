@@ -10,7 +10,22 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+      <form action="Feedback-form.php" method="post">
+      <h1>Feedback Form</h1>
+		  <label for="name">Name</label>
+		  <input type="name" id="name" minlength="3", maxlength="50" required>
+		  <br>
+		  <label for="portfolio">Portfolio</label>
+		  <input type="url" id="portfolio" required>
+		  <br>
+		  <label for="favColor">Favourite Color</label>
+		  <input type="color" id="favColor" required>
+		  <br>
+		  <label for="likeness">Likeness</label>
+		  <input type="range" id="likeness" min="1" max="100" required>
+		  <br>
+	  </form>
+		  
 </body>
 
 </html>
